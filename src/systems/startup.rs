@@ -2,6 +2,7 @@ use bevy::prelude::*;
 use crate::entities::ball::spawn_ball;
 use crate::entities::brick::spawn_bricks;
 use crate::entities::paddle::spawn_paddle;
+use crate::entities::result::spawn_result;
 use crate::entities::scoreboard::spawn_scoreboard;
 use crate::entities::wall::spawn_walls;
 use crate::sounds::setup_sounds;
@@ -25,8 +26,9 @@ pub fn setup(
     // Ball
     spawn_ball(&mut commands, &mut meshes, &mut materials);
 
-    // Scoreboard
+    // Text
     spawn_scoreboard(&mut commands, &asset_server);
+    spawn_result(&mut commands, &asset_server);
 
     // Walls
     spawn_walls(&mut commands);

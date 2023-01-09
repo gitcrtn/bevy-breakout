@@ -36,6 +36,8 @@ pub const GAP_BETWEEN_BRICKS_AND_SIDES: f32 = 20.0;
 pub const SCOREBOARD_FONT_SIZE: f32 = 40.0;
 pub const SCOREBOARD_TEXT_PADDING: Val = Val::Px(5.0);
 
+pub const RESULT_FONT_SIZE: f32 = 200.0;
+
 pub const BACKGROUND_COLOR: Color = Color::rgb(0.9, 0.9, 0.9);
 pub const PADDLE_COLOR: Color = Color::rgb(0.3, 0.3, 0.7);
 pub const BALL_COLOR: Color = Color::rgb(1.0, 0.5, 0.5);
@@ -43,3 +45,4 @@ pub const BRICK_COLOR: Color = Color::rgb(0.5, 0.5, 1.0);
 pub const WALL_COLOR: Color = Color::rgb(0.8, 0.8, 0.8);
 pub const TEXT_COLOR: Color = Color::rgb(0.5, 0.5, 1.0);
 pub const SCORE_COLOR: Color = Color::rgb(1.0, 0.5, 0.5);
+pub const RESULT_COLOR: Color = Color::rgb(1.0, 0.0, 0.0);

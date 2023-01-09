@@ -14,3 +14,9 @@ pub struct Collider;
 
 #[derive(Component)]
 pub struct Brick;
+
+#[derive(Component)]
+pub struct ScoreboardText;
+
+#[derive(Component)]
+pub struct ResultText;

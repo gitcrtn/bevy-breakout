@@ -1,8 +1,9 @@
 use bevy::prelude::*;
+use crate::components::ScoreboardText;
 use crate::constants::*;
 
 pub fn spawn_scoreboard(commands: &mut Commands, asset_server: &Res<AssetServer>) {
-    commands.spawn(
+    commands.spawn((
         TextBundle::from_sections([
             TextSection::new(
                 "Score: ",
@@ -27,5 +28,6 @@ pub fn spawn_scoreboard(commands: &mut Commands, asset_server: &Res<AssetServer>
                 },
                 ..default()
             }),
-    );
+        ScoreboardText
+    ));
 }

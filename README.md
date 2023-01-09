@@ -6,7 +6,7 @@ bevy practice with forked breakout example
 - [x] Refactor code structure  
 - [x] Support wasm build  
 - [ ] Support mobile layout  
-- [ ] Add Result Display  
+- [x] Add Result Display  
 - [ ] Add Life indicator  
 - [ ] Add Game over  
 - [ ] Add Items  
